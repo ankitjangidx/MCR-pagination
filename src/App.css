@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.products {
+  margin: 20px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.products__single {
+  height: 150px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(200, 200, 200);
+}
+.products__single > img {
+  height: 95%;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 3px;
+}
+.pagination {
+  padding: 10px;
+  margin: 15px 0px;
+  display: flex;
+  justify-content: center;
+}
+.pagination > span {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.paginationSelect {
+  background-color: rgb(220, 220, 220);
+  color: black;
+}
